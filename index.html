@@ -1,49 +1,319 @@
-# Hi, I'm Samira 👋
 
-## Aspiring Full-Stack Developer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samira | Full-Stack Developer</title>
 
-I'm passionate about web development and currently building my skills in programming and software development.
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-## 👩‍💻 About Me
+        html {
+            scroll-behavior: smooth;
+        }
 
-- I'm learning Full-Stack Web Development.
-- I'm currently learning C# and JavaScript.
-- I have a good foundation in HTML and CSS.
-- I'm familiar with Bootstrap.
-- I enjoy solving programming problems and building practical projects.
-- My goal is to become a professional Full-Stack Developer.
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1120;
+            color: #e5e7eb;
+            line-height: 1.8;
+        }
 
-## 🛠️ Skills & Technologies
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
 
-### Familiar With
-- HTML
-- CSS
-- Bootstrap
+        .container {
+            width: min(100% - 40px, 1050px);
+            margin: auto;
+        }
 
-### Currently Learning
-- C#
-- JavaScript
+        header {
+            padding: 22px 0;
+            border-bottom: 1px solid #263247;
+        }
 
-### Future Learning Goals
-- ASP.NET Core
-- SQL Server
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
 
-## 🎯 My Goals
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #60a5fa;
+        }
 
-- Improve my programming skills.
-- Learn backend development with C#.
-- Learn ASP.NET Core and SQL Server.
-- Build practical Full-Stack applications.
-- Create real-world projects.
+        nav a {
+            margin-left: 20px;
+            color: #cbd5e1;
+        }
 
-## 📂 My Projects
+        nav a:hover {
+            color: #60a5fa;
+        }
 
-This repository contains my programming exercises, practice projects, and learning progress.
+        .hero {
+            padding: 100px 0 80px;
+        }
 
-I'll add more projects as I continue learning.
+        .tag {
+            color: #60a5fa;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
 
-## 🌱 My Learning Journey
+        h1 {
+            font-size: clamp(36px, 7vw, 58px);
+            line-height: 1.3;
+            margin: 18px 0;
+        }
 
-I'm continuously learning, practicing, and improving my skills to become a professional Full-Stack Developer.
+        h1 span {
+            color: #60a5fa;
+        }
 
-Thanks for visiting my profile! 😊
+        .hero p {
+            max-width: 650px;
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 24px;
+            border-radius: 8px;
+            background: #2563eb;
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        section {
+            padding: 65px 0;
+            border-top: 1px solid #263247;
+        }
+
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 25px;
+            color: #f8fafc;
+        }
+
+        .description {
+            color: #cbd5e1;
+            max-width: 750px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: #151f32;
+            border: 1px solid #29364d;
+            border-radius: 12px;
+            padding: 24px;
+        }
+
+        .card h3 {
+            color: #60a5fa;
+            margin-bottom: 12px;
+        }
+
+        .card p,
+        .card li {
+            color: #cbd5e1;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #93c5fd;
+            font-weight: bold;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            padding: 30px 0;
+            text-align: center;
+            color: #94a3b8;
+            border-top: 1px solid #263247;
+        }
+
+        @media (max-width: 600px) {
+            .hero {
+                padding: 65px 0;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav a {
+                margin: 0 12px 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Samira.dev</a>
+
+                <div>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#goals">Goals</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <section class="hero" style="border: none;">
+                <span class="tag">WELCOME TO MY PORTFOLIO</span>
+
+                <h1>Hi, I'm <span>Samira</span> 👋</h1>
+
+                <h2>Aspiring Full-Stack Developer</h2>
+
+                <p>
+                    I'm passionate about web development and currently
+                    building my skills in programming and software development.
+                    I enjoy learning new technologies and creating practical projects.
+                </p>
+
+                <a href="#projects" class="btn">Explore My Projects</a>
+            </section>
+
+            <section id="about">
+                <h2 class="section-title">👩‍💻 About Me</h2>
+
+                <div class="description">
+                    <p>I'm learning Full-Stack Web Development.</p>
+                    <p>I'm currently learning C# and JavaScript.</p>
+                    <p>I have a good foundation in HTML and CSS.</p>
+                    <p>I'm familiar with Bootstrap.</p>
+                    <p>I enjoy solving programming problems and building practical projects.</p>
+                    <p>My goal is to become a professional Full-Stack Developer.</p>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2 class="section-title">🛠️ Skills & Technologies</h2>
+
+                <div class="grid">
+                    <div class="card">
+                        <h3>Familiar With</h3>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Bootstrap</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Currently Learning</h3>
+                        <p>C#</p>
+                        <p>JavaScript</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Future Learning Goals</h3>
+                        <p>ASP.NET Core</p>
+                        <p>SQL Server</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2 class="section-title">📂 My Projects</h2>
+
+                <div class="grid">
+                    <div class="card">
+                        <h3>3Click Website</h3>
+
+                        <p>
+                            A front-end practice project built with
+                            HTML, CSS and JavaScript.
+                        </p>
+
+                        <a
+                            class="project-link"
+                            href="./3Click/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Live Project →
+                        </a>
+                    </div>
+                </div>
+
+                <p class="description" style="margin-top: 20px;">
+                    I'll add more projects as I continue learning.
+                </p>
+            </section>
+
+            <section id="goals">
+                <h2 class="section-title">🎯 My Goals</h2>
+
+                <div class="card">
+                    <ul>
+                        <li>Improve my programming skills.</li>
+                        <li>Learn backend development with C#.</li>
+                        <li>Learn ASP.NET Core and SQL Server.</li>
+                        <li>Build practical Full-Stack applications.</li>
+                        <li>Create real-world projects.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">🌱 My Learning Journey</h2>
+
+                <p class="description">
+                    I'm continuously learning, practicing, and improving
+                    my skills to become a professional Full-Stack Developer.
+                </p>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Thanks for visiting my portfolio! 😊</p>
+            <p>© 2026 Samira | Built with HTML & CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>
