@@ -1,0 +1,700 @@
+
+body {
+background-color: #d9d9d9 !important;
+ }
+
+ #nav-main .fs1 {
+    font-size: 12px ;
+}
+#nav-main .fs3 {
+    font-size: 14px;
+    color: #212121;
+}
+#nav-main .hover1:hover {
+    color:  #0056b3;
+}
+#templateslide .p1 {
+    position: absolute;
+    bottom: 190px;
+    left: 180px;
+    color: #757575;
+    font-size: 12px;
+}
+#templateslide .p2 {
+    position: absolute;
+    bottom: 140px;
+    right: 275px;
+    color: #212121;
+    font-size: 19px;
+}
+#templateslide .p3 {
+    position: absolute;
+    bottom: 30px;
+    right: 280px;
+    color: #212121;
+    font-size: 14px;
+ }
+#templateslide .p4 {
+    position: absolute;
+    top: 100px;
+    right: 325px;
+    border-radius: 4px;
+    width: 35px;
+    height: 30px;
+    background-color: ;
+}
+#templateslide .p5 {
+    position: absolute;
+    top: 100px;
+    left: 645px;
+    border-radius: 4px;
+    
+}
+#templateslide .p6 {
+    position: absolute;
+    bottom: 0;
+    left: 7px;
+    color: #311e1e;
+    font-size: 20px;
+ }
+ #templateslide .owl-dot {
+    background-color: #90a4ae;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    right: 440px;
+    top: 215px;
+}
+#templateslide .dot1{
+    color: #fff;
+}
+#template1 {
+    position: relative;
+    bottom: 135px;
+}
+#template1 .p1{
+    position: absolute;
+    right: 220px;
+}
+#template1 .fs1 {
+    font-size: 18px;
+}
+#template1 .second-title {
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #0a97b3;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+}
+#template1 .p2 {
+    position: absolute;
+    top: 50px;
+}
+#template1 .p3 {
+    position: absolute;
+    right: 230px;
+    top: 50px;
+    cursor: pointer;
+    font-size: 13px;
+}
+#template1 .owl-dot {
+    background-color: #90a4ae;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    right: 430px;
+    top: 110px;
+}
+#template1 .dot1{
+    color: #fff;
+}
+#ads-gif1 {
+    position: relative;
+    bottom: 120px;
+}
+#ads-gif2 .p1 {
+    position: absolute;
+    bottom: -160px;
+}
+#news1 {
+    position: absolute;
+    top: 625px;
+    background-color: #fff;
+    width: 260px;
+    border-radius: 4px;
+    border-top: 4px solid #0a97b3;
+}
+#news1 .news-header {
+    padding: 15px 0 5px;
+}
+#news1 .fs1 {
+    font-size: 16px;
+    color: #0a97b3;
+}
+#news1 .active {
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 2px solid #0a97b3;
+    color: #0a97b3;
+    list-style-type: none;
+}
+#news1 .bg1 {
+    background-color: #eee;
+}
+#news1 .newsul {
+    list-style-type: none;
+    position: relative;
+    left: 30px;
+    
+}
+#news-scroll .news-type1 {
+    text-decoration: none;
+    font-size: 11px;
+    color: #212121;
+}
+#legiran {
+    width: 310px;
+}
+#legiran .c1 {
+    color: #0a97b3;
+}
+#legiran .p1 {
+    position: relative;
+    bottom: 1060px;
+    padding: 15px 0 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    border-top: 4px solid #0a97b3;
+}
+#stage-77 {
+    width: 200px;
+    border: 1px solid #d7d7d7;
+    padding: 5px;
+}
+#legiran .p2 {
+    position: relative;
+    top: -1060px;
+}
+#round-77 {
+    width: 90px;
+    border: 1px solid #d7d7d7;
+}
+#round-77  {
+    position: absolute;
+    top: 43px;
+    width:;
+}
+#legbartr {
+    background-color: #f5f5f5;
+    width: 100%;
+    justify-content: space-between;
+    padding: 7px 3px;
+    font-size: 12px;
+}
+#legbartr1 {
+    background-color: #fff;
+    width: 100%;
+    justify-content: space-between;
+    padding: 7px 3px;
+    font-size: 12px;
+}
+#table78 {
+    position: relative;
+    bottom: 1030px;
+    width: 310px;
+    height: auto;
+    margin-right: 20px;
+    border-top: 4px solid #0a97b3;
+} 
+#stage-78 {
+    width: 300px;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+}
+#news2 {
+    position: relative;
+    bottom: 1010px;
+    background-color: #fff;
+    width: 310px;
+    border-radius: 4px;
+    border-top: 4px solid #0a97b3;
+    
+}
+#news2 .fs1 {
+    font-size: 16px;
+    color: #0a97b3;
+}
+#news2 .active {
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 2px solid #0a97b3;
+    color: #0a97b3;
+    list-style-type: none;
+}
+#news2 .bg1 {
+    background-color: #eee;
+}
+#news2 .news-content {
+    width: 290px;
+   }
+#news2 .newsul {
+    list-style-type: none;
+    position: relative;
+    left: 30px;
+    font-size: 14px;
+}
+#h-131 {
+    position: relative;
+    bottom: 995px;
+    width: 310px;
+    border-top: 4px  solid #0a97b3;
+}
+#stage-131 {
+    border: 1px solid #0a97b3;
+    padding: 7px;
+    width: 290px;
+}
+#adbox-1 {
+    position: relative;
+    bottom: 980px;
+    width: 310px;
+    border-top: 4px solid #0a97b3;
+}
+#adbox-1 .po {
+width: 25px;
+ height: 25px;
+position: absolute;
+top: 110px;
+}
+#adbox-1 .po1 {
+ width: 25px;
+ height: 25px;
+position: absolute;
+top: 120px;
+background-color: rgba(0, 0, 0, 0.3);
+color: #fff;
+}
+#bord-67 {
+    position: relative;
+    bottom: 965px;
+    width: 310px;
+ border-top: 4px solid #0a97b3;
+ z-index: 2;
+}
+#bord-67 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+}
+.scrollbox {
+    width: 310px;
+    height: 630px;
+    background-color: ;
+    overflow-y: scroll;
+}
+.scrollbox h3 {
+    color: #fff;
+    font-size: 14px;
+    background-color: #777;
+    margin: 10px 0 0 0;
+    padding: 10px 0;
+}.scrollbox .fs1 {
+    font-size: 12px;
+}
+.scrollbox .po2 {
+    position: relative;
+    right: 60px;
+}
+.scrollbox .po3 {
+    position: relative;
+    right: 70px;
+}
+.scrollbox .po4 {
+    position: relative;
+    right: 40px;
+}
+#adbox22 {
+    position: relative;
+    bottom: 945px;
+    width: 300px;
+}
+#video68 {
+    position: relative;
+    right: 360px;
+    bottom: 5885px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#video68 h2 {
+    font-size: 18px;
+    color: #0a97b3;
+}
+#news-121 {
+    border-top: 4px solid #0a97b3;
+    position: relative;
+    bottom: 5870px;
+    right: 360px;
+    width: 325px;
+}
+#news-121 h2 {
+    font-size: 16px;
+    color: #0a97b3;
+    cursor: pointer;
+}
+#news-122 h2 {
+    font-size: 14px;
+}
+#news-121 .w1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 110px;
+    background-color: #fff;
+    color: #000;
+}
+#player-115 {
+    border-top: 4px solid #0a97b3;
+    position: relative;
+    bottom: 5860px;
+    right: 360px;
+    width: 325px;
+}
+#league {
+    width: 305px;
+    border: 1px solid #0a97b3;
+    padding: 10px 5px;
+}
+#adbox-2 {
+    position: relative;
+    bottom: 5845px;
+    right: 335px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#adbox-2 .po {
+    width: 25px;
+     height: 25px;
+    position: absolute;
+    top: 110px;
+    }
+    #adbox-2 .po1 {
+     width: 25px;
+     height: 25px;
+    position: absolute;
+    top: 120px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+ }
+#vall-158 {
+    position: relative;
+    bottom: 5825px;
+    right: 360px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#vall-158 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+
+}
+#stage-158 option {
+    border: 1px solid #0a97b3;
+}
+#footbal-159 {
+    position: relative;
+    bottom: 5805px;
+    right: 360px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#footbal-159 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#stage-159  {
+    width: 300px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#footbal-159 .fs1 {
+    font-size: 12px;
+    font-weight: 600;
+}
+#sport-150 {
+    position: relative;
+    bottom: 5785px;
+    right: 360px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#sport-150 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#stage-150  {
+    width: 315px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#adbox-2 {
+    position: relative;
+    bottom: 5843px;
+    right: 335px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#sport-151 {
+    position: relative;
+    bottom: 5823px;
+    right: 360px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#sport-151 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#sport-152 {
+    position: relative;
+    bottom: 5805px;
+    right: 360px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#sport-152 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#stage-152  {
+    width: 315px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#adbox-3 {
+    position: relative;
+    bottom: 5790px;
+    right: 335px;
+    width: 325px;
+    border-top: 4px solid #0a97b3;
+}
+#adbox-3 .po {
+    width: 25px;
+     height: 25px;
+    position: absolute;
+    top: 115px;
+    }
+    #adbox-3 .po1 {
+     width: 25px;
+     height: 25px;
+    position: absolute;
+    top: 120px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+ }
+ #footbal-83 {
+    position: relative;
+    bottom: 10375px;
+    right: 705px;
+    width: 270px;
+    border-top: 4px solid #0a97b3;
+}
+#footbal-83 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#stage-159  {
+    width: 300px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#footbal-83 .fs1 {
+    font-size: 12px;
+    font-weight: 600;
+}
+#stage-83 {
+    width: 145px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#round-83 {
+    width: 105px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#adbox-4 {
+    position: relative;
+    bottom: 10357px;
+    right: 685px;
+    width: 270px;
+    border-top: 4px solid #0a97b3;
+}
+#adbox-4 .po {
+    width: 25px;
+     height: 25px;
+    position: absolute;
+    top: 115px;
+    }
+    #adbox-4 .po1 {
+     width: 25px;
+     height: 25px;
+    position: absolute;
+    top: 120px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+ }
+ #footbal-84 {
+    position: relative;
+    bottom: 10337px;
+    right: 710px;
+    width: 270px;
+    border-top: 4px solid #0a97b3;
+}
+#footbal-84 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#stage-84  {
+    width: 265px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+    margin-top: 5px;
+}
+#footbal-84 .fs1 {
+    font-size: 12px;
+    font-weight: 600;
+}
+#footbal-117 {
+    position: relative;
+    bottom: 10315px;
+    right: 710px;
+    width: 270px;
+    border-top: 4px solid #0a97b3;
+}
+#footbal-117 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#stage-117  {
+    width: 130px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+    margin-top: 5px;
+}
+#round-117 {
+    width: 110px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#footbal-117 .fs1 {
+    font-size: 12px;
+    font-weight: 600;
+}
+#multi-137 {
+    position: relative;
+    bottom: 10297px;
+    right: 710px;
+    width: 270px;
+    border-top: 4px solid #0a97b3;
+}
+#multi-137 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#stage-137  {
+    width: 135px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+#round-137 {
+    width: 120px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#multi-137 .fs1 {
+    font-size: 12px;
+    font-weight: 600;
+}
+#footbal-151 {
+    position: relative;
+    bottom: 10283px;
+    right: 710px;
+    width: 270px;
+    border-top: 4px solid #0a97b3;
+}
+#footbal-151 h2 {
+    color: #0a97b3;
+    font-size: 16px;
+font-weight: 700;
+}
+#stage-151 {
+    width: 130px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+    margin-top: 5px;
+}
+#round-151 {
+    width: 110px;
+    border: 1px solid #d7d7d7;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+#footbal-151 .fs1 {
+    font-size: 12px;
+    font-weight: 600;
+}
+#footer {
+    position: relative;
+    bottom: 8400px;
+    background-color: #;
+}
+.allfooter-copy {
+border-top: 1px solid #ff3;
+}
+#top {
+    position: relative;
+    bottom: 8530px;
+    z-index: 3;
+    margin-right: 20px;
+    
+    background-color: #0a97b3;
+    width: 10px; 
+    height: 10px;
+    border-radius: 50px;
+}
